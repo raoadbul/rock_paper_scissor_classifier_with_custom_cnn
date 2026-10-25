@@ -1,0 +1,64 @@
+{
+  "test_accuracy": 0.6038961038961039,
+  "best_epoch": 25,
+  "class_counts": {
+    "paper": 334,
+    "rock": 293,
+    "scissor": 396
+  },
+  "classification_report": {
+    "paper": {
+      "precision": 0.6379310344827587,
+      "recall": 0.74,
+      "f1-score": 0.6851851851851852,
+      "support": 50.0
+    },
+    "rock": {
+      "precision": 0.5538461538461539,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.6605504587155964,
+      "support": 44.0
+    },
+    "scissor": {
+      "precision": 0.6451612903225806,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.43956043956043955,
+      "support": 60.0
+    },
+    "accuracy": 0.6038961038961039,
+    "macro avg": {
+      "precision": 0.6123128262171643,
+      "recall": 0.6305050505050505,
+      "f1-score": 0.5950986944870736,
+      "support": 154.0
+    },
+    "weighted avg": {
+      "precision": 0.616723765667036,
+      "recall": 0.6038961038961039,
+      "f1-score": 0.5824487390673498,
+      "support": 154.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      37,
+      7,
+      6
+    ],
+    [
+      3,
+      36,
+      5
+    ],
+    [
+      18,
+      22,
+      20
+    ]
+  ],
+  "class_names": [
+    "paper",
+    "rock",
+    "scissor"
+  ]
+}

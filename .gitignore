@@ -1,0 +1,10 @@
+__pycache__
+venv
+check.md
+.env
+
+.venv/
+__pycache__/
+wandb/
+*.pyc
+checkpoints/*.pth
